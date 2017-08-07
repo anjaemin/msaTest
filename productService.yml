@@ -1,5 +1,15 @@
 server:
   port: ${PORT:8080}
+ 
+spring:
+  profiles: dev1
+server:
+  port: 8080
+  
+spring:
+  profiles: dev2
+server:
+  port: 9999
   
 productService:
   ribbon:
