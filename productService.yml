@@ -1,6 +1,3 @@
-server:
-  port: ${PORT:8080}
- 
 spring:
   profiles: dev1
 server:
