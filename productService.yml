@@ -1,5 +1,9 @@
 server:
   port: 8080
-management:
-  security:
-    enabled: false
+
+productService:
+  ribbon:
+    eureka:
+      enabled: false
+    listOfServers: localhost:8090, localhost:9999
+    ServerListRefreshInterval: 15000
