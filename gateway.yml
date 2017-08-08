@@ -1,7 +1,8 @@
 zuul:
   routes:
     productService:
-      url: http://productService
+      path: /productService/**
+      serviceId: productService
 productService:
   ribbon:
     eureka:
