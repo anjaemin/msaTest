@@ -1,8 +1,8 @@
 zuul:
   routes:
     productService:
-      url: http://productServiceAgg
-productServiceAgg:
+      url: http://productService
+productService:
   ribbon:
     eureka:
       enabled: false
