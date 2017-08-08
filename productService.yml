@@ -2,5 +2,5 @@ productServiceApi:
   ribbon:
     eureka:
       enabled: false
-    listOfServers: localhost:8080,localhost:9999
+    listOfServers: 127.0.0.1:8080,127.0.0.1:9999
     ServerListRefreshInterval: 5000
