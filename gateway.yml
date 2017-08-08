@@ -1,11 +1,13 @@
 zuul:
   routes:
     productService:
-      url: http://localhost:9090
-
-ribbon:
-  eureka:
-    enabled: false
+      url: http://productServiceAgg
+productServiceAgg:
+  ribbon:
+    eureka:
+      enabled: false
+    listOfServers: 127.0.0.1:9090,127.0.0.1:9091
+    ServerListRefreshInterval: 5000
 
 server:
   port: 8081
