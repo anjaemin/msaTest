@@ -3,10 +3,11 @@ zuul:
     productService:
       path: /productService/**
       serviceId: productService
-productService:
-  ribbon:
+ribbon:
     eureka:
       enabled: false
+productService:
+  ribbon:
     listOfServers: 127.0.0.1:9090,127.0.0.1:9091
     ServerListRefreshInterval: 5000
 
