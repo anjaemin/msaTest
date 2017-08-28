@@ -3,6 +3,6 @@ productServiceApi:
     eureka:
       enabled: false
     listOfServers: 127.0.0.1:8080
-    ServerListRefreshInterval: 7000
+    ServerListRefreshInterval: 10000
     ConnectionTimeout: 7000
-    ReadTimeout: 10000
+    ReadTimeout: 7000
