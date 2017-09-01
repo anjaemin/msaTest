@@ -8,8 +8,8 @@ ribbon:
       enabled: false
 productService:
   ribbon:
-    ReadTimeout: 3000
-    ConnectTimeout: 3000
+    ReadTimeout: 10000
+    ConnectTimeout: 10000
     listOfServers: 127.0.0.1:9090,127.0.0.1:9091
     ServerListRefreshInterval: 5000
 
